@@ -113,7 +113,8 @@ This HR Analyst Dashboard provides a powerful tool for identifying and addressin
 
 ## 📷 Dashboard Preview
 
-![HR-Analyst-Dashboard](https://github.com/user-attachments/assets/8c5b7661-e005-4601-bbdc-fbf99e600e8b)
+![alt text](HR-Analyst-Dashboard.JPG)
+![HR-Analyst-Dashboard](https://github.com/user-attachments/assets/2dac866e-fcf4-4da3-ab23-e1b2ae728420)
 
 
 ## 📜 License
