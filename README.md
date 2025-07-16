@@ -51,6 +51,7 @@ AVG([Age])
 
 ---
 
+
 ## 🔍 EDA (Exploratory Data Analysis) Steps
 Distribution of employee age and gender
 
@@ -120,8 +121,12 @@ This project is licensed under the MIT License.
 
 ---
 
+
 ## 🔗 Author
  
 📧 Gmail	:[jayeshpardeshi161@gmail.com]  
 📌 LinkedIn:[] 
 📌 Portfolio:[]
+
+---
+
