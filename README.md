@@ -117,7 +117,7 @@ This project is licensed under the MIT License.
 
 ## 🔗 Author
  
-📧 Gmail	:[jayeshpardeshi161@gmail.com]  
+📧 Gmail:[jayeshpardeshi161@gmail.com]  
 📌 LinkedIn:[] 
 📌 Portfolio:[]
 
