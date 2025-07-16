@@ -31,15 +31,20 @@ Employee attrition is costly and disruptive. This dashboard aims to uncover the 
 
 IF [Attrition] = 'Yes' THEN 1 ELSE 0 END
 
+
 **2. Attrition Rate**
 
 SUM([Attrition Count]) / SUM([Employee Count])
+
 **3. Active Employees**
 
 SUM([Employee Count]) - SUM([Attrition Count])
+
 **4. Average Age**
 
-**AVG([Age])**
+AVG([Age])
+
+---
 
 ## 🔍 EDA (Exploratory Data Analysis) Steps
 Distribution of employee age and gender
@@ -52,6 +57,8 @@ Job roles with high attrition rates
 
 Gender distribution across departments
 
+---
+
 ## 🧠 Data Modeling (in Tableau)
 Calculated Fields for KPIs
 
@@ -60,6 +67,8 @@ Grouping age into bins (e.g., 20-30, 30-40, etc.)
 Data filters by gender, department, and age group
 
 Data blending not required (single dataset)
+
+---
 
 ## 📊 Visualizations Used
 KPI Cards: Employees Count, Attrition Count, Attrition Rate, Avg. Age
@@ -74,6 +83,8 @@ Bar Chart: Education Field vs Attrition
 
 Job Satisfaction Rating: Distribution (Histogram or Bar)
 
+---
+
 ## 🔑 Key Findings
 Higher attrition rates in younger age groups (20-30)
 
@@ -82,6 +93,8 @@ Specific departments show elevated attrition
 Lower job satisfaction is directly tied to increased attrition
 
 Gender-based differences in attrition for specific age bands
+
+---
 
 ## 💼 Business Impact
 Strategic retention initiatives for departments with high attrition
@@ -96,6 +109,8 @@ Attrition is not evenly distributed—age, department, and job satisfaction are 
 Intervening early with targeted employee programs could reduce attrition rates.
 
 Dashboards help stakeholders monitor and react to workforce dynamics in real-time.
+
+---
 
 ## ✅ Conclusion
 This HR Analyst Dashboard provides a powerful tool for identifying and addressing factors related to employee attrition. Using Tableau’s interactivity, HR teams can drill down into key dimensions and implement strategies based on data-driven insights.
