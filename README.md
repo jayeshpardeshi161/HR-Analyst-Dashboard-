@@ -27,22 +27,15 @@ Employee attrition is costly and disruptive. This dashboard aims to uncover the 
 
 ## 🧮 KPIs & Tableau Calculated Fields
 
-**1. Attrition Count**
+To build the core metrics, I created custom calculated fields within Tableau to derive the following KPIs:
 
-IF [Attrition] = 'Yes' THEN 1 ELSE 0 END
+| **Metric Name**      | **Tableau Calculated Field**                     | **Purpose**                                                                 |
+| -------------------- | ------------------------------------------------ | --------------------------------------------------------------------------- |
+| **Attrition Count**  | `IF [Attrition] = 'Yes' THEN 1 ELSE 0 END`       | To quantify the number of employees who have left the organization.         |
+| **Attrition Rate**   | `SUM([Attrition Count]) / SUM([Employee Count])` | To measure the proportion of employees who left out of the total workforce. |
+| **Active Employees** | `SUM([Employee Count]) - SUM([Attrition Count])` | To calculate the number of employees currently active within the company.   |
+| **Average Age**      | `AVG([Age])`                                     | To determine the average age of the workforce, helping identify age trends. |
 
-
-**2. Attrition Rate**
-
-SUM([Attrition Count]) / SUM([Employee Count])
-
-**3. Active Employees**
-
-SUM([Employee Count]) - SUM([Attrition Count])
-
-**4. Average Age**
-
-AVG([Age])
 
 ---
 
