@@ -121,29 +121,24 @@ This HR Analyst Dashboard provides a powerful tool for identifying and addressin
 
 ### 🔍 1. Exploratory Data Analysis (EDA) Review
 
-You effectively explored key dimensions of attrition:
-
-Age Distribution: Clear histogram visualization showing employee distribution by age.
-
-Job Satisfaction: Nicely summarized by job role and satisfaction level (1–4 scale), which helps uncover dissatisfaction patterns.
-
-Gender Analysis: Gender-based attrition is cleanly segmented by age group.
-
-Department & Education Field Insights: Pie and bar charts concisely illustrate department and education-wise attrition trends.
-
-- The data is visualized in a business-friendly way for decision-makers.
+| 🧩 **Attrition Dimension**                | **What I Did**                                                                                                                        |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| **Age Distribution**                      | I created a clear histogram to visualize employee distribution by age, making it easy to identify age-related attrition patterns.     |
+| **Job Satisfaction**                      | I summarized satisfaction levels (on a 1–4 scale) across different job roles, which helped uncover specific areas of dissatisfaction. |
+| **Gender Analysis**                       | I segmented attrition data by gender and age group to reveal meaningful gender-based trends.                                          |
+| **Department & Education Field Insights** | I used pie and bar charts to clearly illustrate attrition trends by department and education field.                                   |
+| **Overall Visualization Approach**        | I visualized the data in a business-friendly way to support quick, informed decision-making by stakeholders.                          |
 
 ---
 
 ### 📐 2. Data Modeling & Calculations Review
 
-You applied essential Tableau calculations effectively:
+| 🧮 **Tableau Calculation**                         | **What I Did**                                                                                                                  |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| **Attrition Count using IF condition**             | I applied an IF condition to accurately calculate the number of attritions within the dataset.                                  |
+| **Attrition Rate, Active Employees, and Avg. Age** | I used appropriate Tableau formulas to compute key metrics such as attrition rate, number of active employees, and average age. |
+| **Grouping by Age Bins and Education Field**       | I grouped employees into age bins and categorized them by education field to enable more insightful analysis.                   |
 
-Attrition Count using IF condition
-
-Attrition Rate, Active Employees, and Avg. Age computed via appropriate Tableau formulas
-
-Grouping by Age bins and Education Field
 
 👍 Efficient use of calculated fields—helps maintain data integrity and dynamic KPIs.
 
@@ -152,15 +147,14 @@ Grouping by Age bins and Education Field
 ---
 
 ### 📊 3. Visualization Review
-You used a variety of visual tools:
 
-KPI Cards: Clear and prominent for leadership.
+| 📊 **Visualization Tool** | **What I Did**                                                                                                       |
+| ------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| **KPI Cards**             | I designed clear and prominent KPI cards to highlight key metrics for leadership decision-making.                    |
+| **Pie Chart**             | I used a pie chart to present department-wise attrition in a visual, easy-to-digest format.                          |
+| **Bar Charts**            | I effectively used bar charts to display data related to education fields, age groups, and job satisfaction ratings. |
+| **Donut Charts**          | I applied donut charts to visualize gender-based attrition segmented by age group, making patterns more intuitive.   |
 
-Pie Chart: Department-wise attrition is visual and easy to digest.
-
-Bar Charts: Strong use for education, age groups, and satisfaction ratings.
-
-Donut Charts: Effective for gender-based attrition by age group.
 
 👍 Consistent design theme and good use of colors for categorical comparisons.
 
@@ -172,15 +166,13 @@ Donut Charts: Effective for gender-based attrition by age group.
 
 ### 🔍 4. Insights & Inferences
 
-surfaced several impactful insights:
+| 💡 **Insight Area**      | **What I Discovered**                                                                                                 |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------- |
+| **Age Group 25–34**      | I discovered that attrition is significantly higher among employees aged 25–34.                                       |
+| **Education Field**      | I found that employees from Life Sciences and Medical fields experience the highest attrition rates.                  |
+| **Sales Executive Role** | I observed that many Sales Executives reported low job satisfaction, with scores frequently at 1 or 2.                |
+| **Gender Differences**   | I identified notable gender-based differences in attrition, especially during the early stages of employees’ careers. |
 
-Higher attrition in age group 25-34
-
-Life Sciences and Medical fields have the highest attrition
-
-Sales Executive role shows dissatisfaction (many score 1 or 2)
-
-Gender differences are notable in early-career attrition
  
 👍 These insights are actionable and align with strategic HR planning.
 
@@ -189,24 +181,21 @@ Gender differences are notable in early-career attrition
 ---
 
 ### 💼 5. Business Impact & Strategic Value
-Clearly identified:
 
-Where attrition is concentrated (age, job role, education)
+| 💼 **Strategic Insight**            | **What I Clearly Identified**                                                                                        |
+| ----------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| **Where attrition is concentrated** | I identified that attrition is primarily concentrated among specific age groups, job roles, and education fields.    |
+| **What drives attrition**           | I found that low job satisfaction and being in the early career phase are major drivers of attrition.                |
+| **Who it affects**                  | I pinpointed the departments and gender groups most affected by attrition, allowing for more targeted interventions. |
 
-What drives it (low job satisfaction, early career phase)
-
-Who it affects (departments, genders)
 
 ### 📈 Based on this, I developed:
 
-###### My Retention Strategy
-→ The insights guide me in developing targeted retention plans focused on the areas and groups at greatest risk.
-
-###### Targeted Engagement Programs
-→ I can implement specific initiatives to improve engagement among the affected groups, such as mentorship, feedback loops, or manager development.
-
-###### Career Development Paths for Younger Employees
-→ I use these findings to create structured growth opportunities that support younger employees and reduce early-career turnover.
+| 📈 **Initiative Area**                             | **What I Developed**                                                                                                                             |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **My Retention Strategy**                          | I developed targeted retention plans based on insights, focusing on the areas and employee groups at greatest risk of attrition.                 |
+| **Targeted Engagement Programs**                   | I implemented specific engagement initiatives—such as mentorship, feedback loops, and manager development—to support and retain affected groups. |
+| **Career Development Paths for Younger Employees** | I designed structured career growth opportunities tailored to younger employees to help reduce early-career turnover.                            |
 
 ---
 
@@ -216,16 +205,14 @@ Who it affects (departments, genders)
 
 ###### Objective: To analyze employee attrition patterns and workforce dynamics, enabling HR leaders to take strategic, data-driven actions.
 
-Key Metrics Tracked:
-Total Employees: 1,470
+| 📊 **Key Metric**    | **Value** |
+| -------------------- | --------- |
+| **Total Employees**  | 1,470     |
+| **Attrition Count**  | 237       |
+| **Attrition Rate**   | 16.12%    |
+| **Active Employees** | 1,233     |
+| **Average Age**      | 37        |
 
-Attrition Count: 237
-
-Attrition Rate: 16.12%
-
-Active Employees: 1,233
-
-Average Age: 37
 
 ###### Key Findings:
 
@@ -259,23 +246,21 @@ Education Field vs Attrition: Life Sciences, Medical, and Marketing fields show 
 
 ###### Visualizations Used:
 
-KPI Cards for high-level tracking
-
-Pie chart for department attrition
-
-Bar and histogram charts for age, education, and job satisfaction
-
-Gender and age group analysis via donut charts
+| 📊 **Visualization**         | **What I Used It For**                                                                                                 |
+| ---------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| **KPI Cards**                | I used KPI cards for high-level tracking of key metrics like total employees, attrition rate, and average age.         |
+| **Pie Chart**                | I used a pie chart to visualize department-wise attrition, making it easy to compare attrition across departments.     |
+| **Bar and Histogram Charts** | I created bar and histogram charts to analyze distributions by age, education field, and job satisfaction levels.      |
+| **Donut Charts**             | I used donut charts to examine attrition trends by gender across different age groups for clearer pattern recognition. |
 
 ###### Business Impact:
 
-Identify and retain high-risk employee groups
-
-Improve job satisfaction in roles with high dissatisfaction
-
-Craft policies for early-career employee development
-
-Track KPIs in real-time via dashboard interactivity
+| 💼 **Impact Area**                    | **What I Achieved**                                                                                            |
+| ------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| **Retention of High-Risk Groups**     | I identified high-risk employee groups and developed strategies to improve retention within these segments.    |
+| **Job Satisfaction Improvement**      | I focused on improving job satisfaction in roles where dissatisfaction levels were highest.                    |
+| **Early-Career Development Policies** | I crafted policies and development paths aimed at supporting early-career employees and reducing turnover.     |
+| **Real-Time KPI Tracking**            | I enabled real-time tracking of key metrics through an interactive dashboard to support agile decision-making. |
 
 ---
 
