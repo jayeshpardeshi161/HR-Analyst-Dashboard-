@@ -213,6 +213,7 @@ This HR Analyst Dashboard provides a powerful tool for identifying and addressin
 | **Active Employees** | 1,233     |
 | **Average Age**      | 37        |
 
+---
 
 ###### Key Findings:
 
@@ -223,6 +224,8 @@ Life Sciences and Medical education fields show highest attrition
 Sales Executives have lowest satisfaction levels
 
 Male attrition slightly higher than female across all age groups
+
+---
 
 ###### 🧠 Key Features & Insights
 
@@ -244,6 +247,8 @@ Strong correlation observed between low satisfaction and higher attrition
 
 Education Field vs Attrition: Life Sciences, Medical, and Marketing fields show higher turnover rates.
 
+---
+
 ###### Visualizations Used:
 
 | 📊 **Visualization**         | **What I Used It For**                                                                                                 |
@@ -252,6 +257,8 @@ Education Field vs Attrition: Life Sciences, Medical, and Marketing fields show 
 | **Pie Chart**                | I used a pie chart to visualize department-wise attrition, making it easy to compare attrition across departments.     |
 | **Bar and Histogram Charts** | I created bar and histogram charts to analyze distributions by age, education field, and job satisfaction levels.      |
 | **Donut Charts**             | I used donut charts to examine attrition trends by gender across different age groups for clearer pattern recognition. |
+
+---
 
 ###### Business Impact:
 
@@ -263,6 +270,32 @@ Education Field vs Attrition: Life Sciences, Medical, and Marketing fields show 
 | **Real-Time KPI Tracking**            | I enabled real-time tracking of key metrics through an interactive dashboard to support agile decision-making. |
 
 ---
+
+| **What I Did**                        | **Description**                                                                                                                    |
+| ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| **Developed Dashboard**               | Built an interactive Tableau dashboard to monitor HR KPIs for 1,470 employees, enabling real-time workforce visibility.            |
+| **Attrition Pattern Analysis**        | Analyzed attrition trends by age, gender, department, and education, identifying a 29.11% attrition rate in the 25–34 age group.   |
+| **Calculated KPIs**                   | Created calculated fields in Tableau for Attrition Rate (16.12%), Active Employees (1,233), and Average Age (37).                  |
+| **Department-wise Attrition**         | Used pie charts to visualize attrition across departments, revealing high turnover in Life Sciences and Sales.                     |
+| **Job Satisfaction Segmentation**     | Segmented attrition data by job satisfaction, showing a strong link between low scores (1–2) and attrition among Sales Executives. |
+| **Age Binning & Filters**             | Implemented age binning and slicer filters (e.g., gender, department) for enhanced interactivity and deeper demographic analysis.  |
+| **Gender-based Analysis**             | Used donut charts to identify slightly higher attrition rates among males across different age groups.                             |
+| **Education Field Insights**          | Discovered highest attrition rates in Life Sciences and Medical fields via bar chart analysis.                                     |
+| **KPI Card Design**                   | Designed KPI cards for executive-level metrics like total employees, attrition count, attrition rate, and average age.             |
+| **Retention Strategy Recommendation** | Proposed data-driven retention strategies for high-risk employee groups based on dashboard insights.                               |
+| **Visual Storytelling Improvement**   | Enhanced user experience through color consistency and interactive elements like slicers and bin size sliders.                     |
+| **Business Impact Delivery**          | Provided insights that led to early-career development programs and improvements in employee satisfaction.                         |
+| **Real-Time Decision Support**        | Enabled agile HR decision-making through automated, real-time Tableau visualizations.                                              |
+
+
+---
+
+***I designed and developed an interactive Tableau dashboard to analyze attrition trends across 1,470 employees, using calculated fields and 
+segmented visualizations (age, gender, department, education) to uncover a 29.11% attrition rate in the 25–34 age group, 
+drive real-time KPI tracking (Attrition Rate: 16.12%, Avg. Age: 37), and inform targeted retention strategies through actionable insights.***
+
+---
+
 
 ## 📜 License
 This project is licensed under the MIT License.
