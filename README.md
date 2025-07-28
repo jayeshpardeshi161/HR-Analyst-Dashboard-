@@ -203,9 +203,9 @@ ________________________________________
 
 ### 📝 SUMMARY REPORT
 
-### Project Title: HR Analyst Dashboard (Tableau)
+**Project Title: HR Analyst Dashboard (Tableau)**
 
-### Objective: To analyze employee attrition patterns and workforce dynamics, enabling HR leaders to take strategic, data-driven actions.
+**bjective: To analyze employee attrition patterns and workforce dynamics, enabling HR leaders to take strategic, data-driven actions.**
 
 | 📊 **Key Metric**    | **Value** |
 | -------------------- | --------- |
