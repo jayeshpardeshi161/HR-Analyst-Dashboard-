@@ -203,9 +203,9 @@ ________________________________________
 
 ### 📝 SUMMARY REPORT
 
-###### Project Title: HR Analyst Dashboard (Tableau)
+### Project Title: HR Analyst Dashboard (Tableau)
 
-###### Objective: To analyze employee attrition patterns and workforce dynamics, enabling HR leaders to take strategic, data-driven actions.
+### Objective: To analyze employee attrition patterns and workforce dynamics, enabling HR leaders to take strategic, data-driven actions.
 
 | 📊 **Key Metric**    | **Value** |
 | -------------------- | --------- |
@@ -217,7 +217,7 @@ ________________________________________
 
 ________________________________________
 
-###### Key Findings:
+### Key Findings:
 
 Highest attrition in age 25–34 group (29.11%)
 
@@ -229,7 +229,7 @@ Male attrition slightly higher than female across all age groups
 
 ________________________________________
 
-###### 🧠 Key Features & Insights
+### 🧠 Key Features & Insights
 
 Real-Time KPI Monitoring: Tracks Employee Count, Attrition Count, Attrition Rate, Active Employees, and Average Age.
 
@@ -251,7 +251,7 @@ Education Field vs Attrition: Life Sciences, Medical, and Marketing fields show 
 
 ________________________________________
 
-###### Visualizations Used:
+### Visualizations Used:
 
 | 📊 **Visualization**         | **What I Used It For**                                                                                                 |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
@@ -262,7 +262,7 @@ ________________________________________
 
 ________________________________________
 
-###### Business Impact:
+### Business Impact:
 
 | 💼 **Impact Area**                    | **What I Achieved**                                                                                            |
 | ------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
@@ -292,7 +292,7 @@ ________________________________________
 
 ________________________________________
 
-**Results**
+## Results
 
 I designed and developed an interactive Tableau dashboard to analyze attrition trends across 1,470 employees, using calculated fields and 
 segmented visualizations (age, gender, department, education) to uncover a 29.11% attrition rate in the 25–34 age group, 
@@ -333,5 +333,6 @@ ________________________________________
 📌 LinkedIn:[] 
 📌 Portfolio:[]
 
----
+________________________________________
+
 
